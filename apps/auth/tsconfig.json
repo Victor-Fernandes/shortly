@@ -20,7 +20,13 @@
     "paths": {
       "@application/*": ["src/application/*"],
       "@domain/*": ["src/domain/*"],
-      "@infrastructure/*": ["src/infrastructure/*"]
+      "@infrastructure/*": ["src/infrastructure/*"],
+      "@entities/*": ["src/domain/entities/*"],
+      "@interfaces/*": ["src/domain/interfaces/*"],
+      "@use-cases/*": ["src/application/use-cases/*"],
+      "@dtos/*": ["src/application/dtos/*"],
+      "@adapters/*": ["src/infrastructure/adapters/*"],
+      "@repositories/*": ["src/infrastructure/persistence/repositories/*"]
     }
   }
 }
