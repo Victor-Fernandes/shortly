@@ -1,0 +1,9 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "paths": {
+      "@domain/*": ["./src/domain/*"],
+      "@entities/*": ["./src/domain/entities/*"]
+    }
+  }
+}
