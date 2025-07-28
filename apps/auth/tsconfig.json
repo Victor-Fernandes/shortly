@@ -26,7 +26,8 @@
       "@use-cases/*": ["src/application/use-cases/*"],
       "@dtos/*": ["src/application/dtos/*"],
       "@adapters/*": ["src/infrastructure/adapters/*"],
-      "@repositories/*": ["src/infrastructure/persistence/repositories/*"]
+      "@repositories/*": ["src/infrastructure/database/repositories/*"],
+      "@infrastructure/*": ["src/infrastructure/*"]
     }
   }
 }
